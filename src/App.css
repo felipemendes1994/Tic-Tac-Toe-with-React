@@ -1,12 +1,16 @@
-* {
-  margin: 0;
+body, html, #root{
+  width: 100%;
+  height: 100%;
   padding: 0;
-  box-sizing: border-box;
+  margin: 0;
+}
+
+.container-fluid{
+  padding: 0;
 }
 
 #board{
   display: flex;
-  width: 450px;
   flex-wrap: wrap;
   cursor: pointer;
 }
@@ -14,17 +18,14 @@
 .square{
   width: 150px;
   height: 150px;
-  border: 1px solid black
+  border: 5px solid black;
+  font-size: 70px;
 }
 
-#game{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+.options{
+  padding: 15%;
 }
 
-#head{
-  font-size: 25px;
-  padding: 15px;
+h2, h1{
+  color: #FFF;
 }
