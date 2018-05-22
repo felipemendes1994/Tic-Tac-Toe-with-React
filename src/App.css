@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#board{
+  display: flex;
+  width: 450px;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+
+.square{
+  width: 150px;
+  height: 150px;
+  border: 1px solid black
+}
+
+#game{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#head{
+  font-size: 25px;
+  padding: 15px;
+}
